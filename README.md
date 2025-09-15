@@ -32,3 +32,14 @@ GND(ESP32) -> GND(dmx connector 2)
 
 <img width="675" height="788" alt="image" src="https://github.com/user-attachments/assets/fee33d33-9264-421f-8fb0-0002d6981fb8" />
 
+---
+# Future Features
+
+[] Ethernet Addition
+[] Config Page on first startup for easy starting
+[] PCB Design for downloading
+[] enclosure design for 3d printing
+
+---
+
+Art-Net™ Designed by and Copyright Artistic Licence Engineering Ltd
