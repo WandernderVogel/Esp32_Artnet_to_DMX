@@ -6,16 +6,29 @@ Artnet to DMX converter based on the ESP32 in combination with an rs485 module f
 # Usage
 Please enter your Wifi Credentials and define the max universes as either 1 or 2 that can be send out
 The rs485 modle should be connected as followed(can also be viewn in image):
-RO -> not connected
-DE -> 3.3V(ESP32)
-RE -> 3.3V(ESP32)
-DI -> D17(ESP32)
+RO rs485-1 -> not connected
+DE rs485-1 -> 3.3V(ESP32)
+RE rs485-1 -> 3.3V(ESP32)
+DI rs485-1 -> D17/TX2(ESP32)
 
-VCC -> 3.3V(ESP32)
-A -> Pin 1(dmx connector)
-B -> Pin 2(dmx connector)
-GND -> GND(ESP32)
+VCC rs485-1 -> 3.3V(ESP32)
+A rs485-1 -> Pin 1(dmx connector 1)
+B rs485-1 -> Pin 2(dmx connector 1)
+GND rs485-1 -> GND(ESP32)
 
-GND(ESP32) -> GND(dmx connector)
+GND(ESP32) -> GND(dmx connector 1)
 
-<img width="671" height="808" alt="image" src="https://github.com/user-attachments/assets/1dc9a10a-da11-4915-a7fe-1cf43311ff34" />
+RO rs485-2 -> not connected
+DE rs485-2 -> 3.3V(ESP32)
+RE rs485-2 -> 3.3V(ESP32)
+DI rs485-2 -> D19(ESP32)
+
+VCC rs485-2 -> 3.3V(ESP32)
+A rs485-2 -> Pin 1(dmx connector 2)
+B rs485-2 -> Pin 2(dmx connector 2)
+GND rs485-2 -> GND(ESP32)
+
+GND(ESP32) -> GND(dmx connector 2)
+
+<img width="675" height="788" alt="image" src="https://github.com/user-attachments/assets/fee33d33-9264-421f-8fb0-0002d6981fb8" />
+
