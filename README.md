@@ -43,3 +43,5 @@ GND(ESP32) -> GND(dmx connector 2)
 ---
 
 Art-Net™ Designed by and Copyright Artistic Licence Engineering Ltd
+
+This code is published under [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)
