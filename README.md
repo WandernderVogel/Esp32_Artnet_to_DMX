@@ -35,10 +35,10 @@ GND(ESP32) -> GND(dmx connector 2)
 ---
 # Future Features
 
-[] Ethernet Addition
-[] Config Page on first startup for easy starting
-[] PCB Design for downloading
-[] enclosure design for 3d printing
+- [ ] Ethernet Addition
+- [ ] Config Page on first startup for easy starting
+- [ ] PCB Design for downloading
+- [ ] enclosure design for 3d printing
 
 ---
 
