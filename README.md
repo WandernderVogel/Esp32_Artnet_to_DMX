@@ -1,6 +1,10 @@
 # Esp32_Artnet_to_DMX
 Artnet to DMX converter based on the ESP32 in combination with an rs485 module for outputting one universe
 
+---
+
+# Usage
+Please enter your Wifi Credentials and define the max universes as either 1 or 2 that can be send out
 The rs485 modle should be connected as followed(can also be viewn in image):
 RO -> not connected
 DE -> 3.3V(ESP32)
